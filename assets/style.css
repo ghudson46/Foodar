@@ -1,0 +1,88 @@
+html {
+  display: inline-block;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav h1 {
+  float: left;
+}
+
+nav p {
+  float: right;
+}
+
+form {
+  align-items: center;
+}
+form label {
+  vertical-align: top;
+}
+
+input {
+  padding: 5px 0 5px 10px;
+  margin: 5px;
+  width: 300px;
+}
+
+
+form {
+  margin-bottom: 20px;
+  display: grid;
+}
+
+section {
+  height: 700px;
+}
+
+section h1 {
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top: calc(50% - 100px);
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+nav {
+  background-color: gray;
+  width: 100%;
+}
+
+button {
+width: 100px;
+padding: 5px 0;
+position: relative;
+top: 50px;
+left: calc(50% - 50px);
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 50px);
+}
+
+.banner {
+  background-color: slategray;
+  color: white;
+  padding: 5px 0;
+} 
+
+.feature-img {
+  background-image: url("/assets/img/food.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
